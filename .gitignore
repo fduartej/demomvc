@@ -1,0 +1,16 @@
+obj/demomvc.csproj.nuget.cache
+obj/demomvc.csproj.nuget.g.props
+obj/demomvc.csproj.nuget.g.targets
+obj/project.assets.json
+obj/Debug/netcoreapp2.0/demomvc.AssemblyInfo.cs
+obj/Debug/netcoreapp2.0/demomvc.AssemblyInfoInputs.cache
+obj/Debug/netcoreapp2.0/demomvc.csproj.CoreCompileInputs.cache
+bin/Debug/netcoreapp2.0/demomvc.dll
+bin/Debug/netcoreapp2.0/demomvc.pdb
+bin/Debug/netcoreapp2.0/demomvc.deps.json
+bin/Debug/netcoreapp2.0/demomvc.runtimeconfig.json
+bin/Debug/netcoreapp2.0/demomvc.runtimeconfig.dev.json
+obj/Debug/netcoreapp2.0/demomvc.dll
+obj/Debug/netcoreapp2.0/demomvc.pdb
+obj/Debug/netcoreapp2.0/demomvc.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp2.0/demomvc.csprojAssemblyReference.cache
