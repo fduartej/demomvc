@@ -11,3 +11,9 @@ sqlite3 MvcMovie.db
 
 docker exec -it myapp /bin/bash
 docker logs myapp --tail 50 -f
+
+
+dotnet aspnet-codegenerator controller -name MoviesController -m Movie -dc MvcMovieContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries 
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update
