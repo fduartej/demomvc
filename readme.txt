@@ -17,3 +17,5 @@ dotnet aspnet-codegenerator controller -name MoviesController -m Movie -dc MvcMo
 
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app-xplat/?view=aspnetcore-2.1
