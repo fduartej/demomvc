@@ -4,7 +4,7 @@ namespace demomvc.Models
 {
     public class Student
     {
-        public string Id { get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
     }
 

@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using demomvc.Models;
+using MySql.Data.EntityFrameworkCore.Extensions;
+
 
 namespace demomvc
 {
@@ -22,6 +26,11 @@ namespace demomvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddDbContext<MvcContext>(options =>
+                  //options.UseSqlite(@"Data Source=/app/MvcMovie.db")
+                  options.UseMySQL("server=localhost;database=library4;user=root;password=MySQL;port=3306")
+
+                  );            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

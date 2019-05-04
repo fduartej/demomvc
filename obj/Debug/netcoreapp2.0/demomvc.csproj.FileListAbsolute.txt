@@ -1,0 +1,11 @@
+C:\Users\Clase\Downloads\proyectos\demomvc\bin\Debug\netcoreapp2.0\demomvc.deps.json
+C:\Users\Clase\Downloads\proyectos\demomvc\bin\Debug\netcoreapp2.0\demomvc.runtimeconfig.json
+C:\Users\Clase\Downloads\proyectos\demomvc\bin\Debug\netcoreapp2.0\demomvc.runtimeconfig.dev.json
+C:\Users\Clase\Downloads\proyectos\demomvc\bin\Debug\netcoreapp2.0\demomvc.dll
+C:\Users\Clase\Downloads\proyectos\demomvc\bin\Debug\netcoreapp2.0\demomvc.pdb
+C:\Users\Clase\Downloads\proyectos\demomvc\obj\Debug\netcoreapp2.0\demomvc.csprojAssemblyReference.cache
+C:\Users\Clase\Downloads\proyectos\demomvc\obj\Debug\netcoreapp2.0\demomvc.csproj.CoreCompileInputs.cache
+C:\Users\Clase\Downloads\proyectos\demomvc\obj\Debug\netcoreapp2.0\demomvc.AssemblyInfoInputs.cache
+C:\Users\Clase\Downloads\proyectos\demomvc\obj\Debug\netcoreapp2.0\demomvc.AssemblyInfo.cs
+C:\Users\Clase\Downloads\proyectos\demomvc\obj\Debug\netcoreapp2.0\demomvc.dll
+C:\Users\Clase\Downloads\proyectos\demomvc\obj\Debug\netcoreapp2.0\demomvc.pdb
