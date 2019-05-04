@@ -1,13 +1,20 @@
 # demomvc
 
 Controllers/StudentsController.cs 
+
 Models/MvcContext.cs 
+
 Models/Student.cs 
+
 Startup.cs 
-   Views/Shared/_Layout.cshtml 
-    Views/Students/Create.cshtml 
+
+Views/Shared/_Layout.cshtml 
+
+   Views/Students/Create.cshtml 
+   
    Views/Students/Index.cshtml 
-	demomvc.csproj 
+  
+demomvc.csproj 
 	
 dotnet add package MySql.Data.EntityFrameworkCore -v 6.10.8
 
