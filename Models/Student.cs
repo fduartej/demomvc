@@ -16,6 +16,8 @@ namespace demomvc.Models
 		[StringLength(40)]
         public string LastName { get; set; }
 
+        [Required(ErrorMessage = "Por favor ingrese genero")]
+        public string Genero { get; set; }
     }
 
 }

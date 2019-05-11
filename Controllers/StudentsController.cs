@@ -33,7 +33,7 @@ namespace demomvc.Controllers
         // POST: Students/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name,LastName")] Student student)
+        public async Task<IActionResult> Create([Bind("Name,LastName,Genero")] Student student)
         {
             if (ModelState.IsValid)
             {

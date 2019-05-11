@@ -23,7 +23,17 @@
                 <span asp-validation-for="LastName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <label asp-for="Genero" class="control-label"></label>
+                <br>
+                Masculino
+                <input asp-for="Genero" class="checkbox" type="radio" value="M"/>
+                Femenino
+                <input asp-for="Genero" class="checkbox" type="radio" value="F"/>
+                <span asp-validation-for="Genero" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>

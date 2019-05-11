@@ -18,6 +18,9 @@
                 <th>
                     @Html.DisplayNameFor(model => model.LastName)
                 </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Genero)
+                </th>
                 <th></th>
         </tr>
     </thead>
@@ -30,6 +33,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.LastName)
             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero)
+            </td>            
             <td>
                 <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
             </td>
