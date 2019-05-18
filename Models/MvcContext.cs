@@ -10,5 +10,7 @@ namespace demomvc.Models
         }
 
         public DbSet<demomvc.Models.Student> Student { get; set; }
+
+        public DbSet<demomvc.Models.Teacher> Teacher { get; set; }
     }
 }

@@ -19,10 +19,27 @@ namespace demomvc.Controllers
         }
 
         // GET: Students
-        public async Task<IActionResult> Index()
+        /* public async Task<IActionResult> Index()
         {
             return View(await _context.Student.ToListAsync());
-        }
+        }*/
+
+        public async Task<IActionResult> Index(string searchString)
+        {		         
+            var students = from m in _context.Student
+                  select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                 students = students.
+                        Where(s => s.Name.Contains(searchString));
+
+                 //"SELECT * FROM STUDENT WHERE name like 'a%"
+            }
+
+            return View(await students.ToListAsync());
+         }		         
+
 
         // GET: Students/Create
         public IActionResult Create()
