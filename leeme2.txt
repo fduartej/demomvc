@@ -1,0 +1,55 @@
+git clone --branch database2fix https://github.com/fduartej/demomvc.git
+
+creado repositorio
+git clone
+branches commit push
+fusionar
+
+master (menu, base datos) - Jose
+
+    registro  - Juan *Master
+	login - Cuto  *Master
+	consulta - Rafo *Master
+	
+	
+master (menu, base datos) - Jose -> clone
+	ventas - Gerado- cambios........ comit push 
+
+	fusionar
+	
+	git checkout master
+	git pull
+	git checkout your-branch
+	git merge master
+    git push origin master
+	
+	
+master	
+
+
+git clone https://github.com/fduartej/testgit.git
+
+
+mysql
+   conection
+   cache
+   sql
+   
+-----------------tiempo----------------------
+fork -----MariaBD
+mysql
+   conection
+   cache
+   sql
+
+fork -----YourDatabase
+mysql
+   conection
+   cache
+   sql
+   sql*con inteligencia artifical
+   
+   Cree Teacher
+   dotnet ef migrations add TeacherCreate
+   dotnet ef database update
+   dotnet aspnet-codegenerator controller -name TeacherController -m Teacher -dc MvcContext --relativeFolderPath Controllers --useDefaultLayout --referenceScriptLibraries 
